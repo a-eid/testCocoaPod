@@ -6,10 +6,12 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 
+
 Pod::Spec.new do |s|
   s.name             = 'createYouOwnCocoapod'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of createYouOwnCocoapod.'
+  s.summary          = 'learning how to make a cocoapod'
+  s.swift_version    = '4.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +20,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  ... learning how to make a cocoapod
                        DESC
 
-  s.homepage         = 'https://github.com/2aaaf18d9c8945703de03c552922e9b7feef1884/createYouOwnCocoapod'
+  s.homepage         = 'https://github.com/a-eid/testCocoaPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '2aaaf18d9c8945703de03c552922e9b7feef1884' => 'a.eid@yandex.com' }
-  s.source           = { :git => 'https://github.com/2aaaf18d9c8945703de03c552922e9b7feef1884/createYouOwnCocoapod.git', :tag => s.version.to_s }
+  s.author           = { 'a-eid' => 'a.eid@yandex.com' }
+  s.source           = { :git => 'https://github.com/a-eid/testCocoaPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'createYouOwnCocoapod/Classes/**/*'
   
