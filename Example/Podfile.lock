@@ -1,0 +1,16 @@
+PODS:
+  - createYouOwnCocoapod (0.1.0)
+
+DEPENDENCIES:
+  - createYouOwnCocoapod (from `../`)
+
+EXTERNAL SOURCES:
+  createYouOwnCocoapod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  createYouOwnCocoapod: 32a13e055c76fcb67788752e618eb3c12bafd3d6
+
+PODFILE CHECKSUM: ae972a81a526ae153dfdf7610a3fdbf3c7b2c91c
+
+COCOAPODS: 1.4.0
